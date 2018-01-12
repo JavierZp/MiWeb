@@ -1,0 +1,89 @@
+*{
+	font-family:rockwell; /*cambia letra*/
+
+}
+
+body{
+	margin:0;
+	background-color: #2B3959;
+}
+
+.titulo-principales{
+	background-color: #5B5FFF;
+	text-align: center;
+	padding: 3%;
+}
+
+.titulo-principales h1{
+	color:white;
+}
+.titulo-principales h2{
+	font-size: 15px;
+	color:white;
+}
+.menu-navegacion{
+	text-align: center;
+}
+/*Display sirve para que la lista salga de forma horizontal*/
+.menu-navegacion li{
+	display: inline;
+
+}
+.menu-navegacion a{
+	/*Margin crea un espacio entre cada elemento*/
+	margin: 3%;
+	
+	color:black;
+	padding: 3%;
+    display: inline-block;
+    text-decoration: none;
+    width: 85px;
+    height: 20px;
+	 border: 10px outset #cccccc; 
+   	background-color: #cccccc; 
+}
+/*Todos los List item cuando esté sobre ellos cambiará el background*/
+.menu-navegacion li:hover a{
+	background: #24805E
+}
+
+li.activo a{
+	background: #6D635C;
+}
+.info-personal{
+	text-align: center;
+
+}
+ul{
+	list-style: none;  /*Hace que no tenga puntos la lista*/ 
+}
+.footer{
+	background: #2B3959;
+	padding: 3%;
+	text-align: center;
+}
+
+.footer li{
+	display: inline;/*Hace que la lista se vea horizontal*/
+	margin: 2%;	/*es para que no quede todo pegado*/
+}
+.footer a{
+	background-color: #160B66;
+	color: white;
+	text-decoration: none;
+	padding: 2%;
+}
+.Biografia{
+	text-align: center;
+	padding: 2%;
+	font-size: 30px;
+}
+.CasaStark{
+	font-size: 40px;
+	text-decoration: none;
+	text-align: center;
+}
+.episodios{
+	text-align: center;
+	
+}
